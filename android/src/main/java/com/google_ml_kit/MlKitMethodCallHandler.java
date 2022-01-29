@@ -4,21 +4,9 @@ import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import com.google_ml_kit.nl.EntityExtractor;
-import com.google_ml_kit.nl.EntityModelManager;
-import com.google_ml_kit.nl.LanguageDetector;
-import com.google_ml_kit.nl.OnDeviceTranslator;
-import com.google_ml_kit.nl.SmartReply;
-import com.google_ml_kit.nl.TranslatorModelManager;
-import com.google_ml_kit.vision.BarcodeDetector;
-import com.google_ml_kit.vision.DigitalInkRecogniser;
+
 import com.google_ml_kit.vision.FaceDetector;
-import com.google_ml_kit.vision.ImageLabelDetector;
-import com.google_ml_kit.vision.ObjectDetector;
-import com.google_ml_kit.vision.CustomRemoteModelManager;
-import com.google_ml_kit.vision.PoseDetector;
-import com.google_ml_kit.vision.TextDetector;
-import com.google_ml_kit.vision.TextDetectorV2;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
