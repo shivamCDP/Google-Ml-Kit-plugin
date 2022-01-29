@@ -37,7 +37,7 @@ public class MlKitMethodCallHandler implements MethodChannel.MethodCallHandler {
         List<ApiDetectorInterface> detectors = new ArrayList<ApiDetectorInterface>(
                 Arrays.asList(
                       
-                        new FaceDetector(context),
+                        new FaceDetector(context)
                        
                 ));
 
