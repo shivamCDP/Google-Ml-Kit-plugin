@@ -36,21 +36,9 @@ public class MlKitMethodCallHandler implements MethodChannel.MethodCallHandler {
     public MlKitMethodCallHandler(Context context) {
         List<ApiDetectorInterface> detectors = new ArrayList<ApiDetectorInterface>(
                 Arrays.asList(
-                        new BarcodeDetector(context),
-                        new DigitalInkRecogniser(),
+                      
                         new FaceDetector(context),
-                        new ImageLabelDetector(context),
-                        new PoseDetector(context),
-                        new TextDetector(context),
-                        new ObjectDetector(context),
-                        new CustomRemoteModelManager(),
-                        new EntityExtractor(),
-                        new EntityModelManager(),
-                        new LanguageDetector(),
-                        new OnDeviceTranslator(),
-                        new TranslatorModelManager(),
-                        new SmartReply(),
-                        new TextDetectorV2(context)
+                       
                 ));
 
         handlers = new HashMap<>();
